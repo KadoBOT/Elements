@@ -1,3 +1,16 @@
-.slider {
-  height: 556px;
+.slider__wrapper {
 }
+
+.slider__wrapper {
+  height: 536px !important;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-frame {
+  height: 100% !important;
+}
+/*.slider-frame {
+  height: 100%;
+}*/

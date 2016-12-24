@@ -4,9 +4,10 @@ import styled from 'styled-components';
 const Button = styled.button`
 background: #ec0f50;
 border: none;
-padding: 30px 60px;
 color: white;
 font-size: 29px;
+padding: 20px 60px;
+border-radius: 6px;
 `
 
 // Button.propTypes = {

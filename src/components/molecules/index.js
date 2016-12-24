@@ -10,6 +10,7 @@ import HeaderMenu from './HeaderMenu'
 import Hero from './Hero'
 import Images from './Images'
 import TextColumns from './TextColumns'
+import SliderContent from './SliderContent'
 
 module.exports = {
   About,
@@ -23,5 +24,6 @@ module.exports = {
   HeaderMenu,
   Hero,
   Images,
+  SliderContent,
   TextColumns
 }

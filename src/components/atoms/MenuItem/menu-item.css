@@ -1,0 +1,8 @@
+.menu-item {
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #ec0f50 !important;
+  border-bottom: 2px solid #ec0f50;
+}

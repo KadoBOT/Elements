@@ -1,5 +1,7 @@
 import { createReducer } from 'redux-act'
+import { requestClients, receiveClients } from '../actions'
 
-const defaultState = ['mcdonalds', 'adidas', 'tnt', 'greenpeace', 'philips', 'elements']
-
-export default createReducer({}, defaultState)
+export default createReducer({
+  [requestClients]: (state) => ({...state, running: true}),
+  [receiveClients]: (state, clients) => ({ running: false, clients })
+}, { running: false, clients: false })

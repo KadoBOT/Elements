@@ -1,9 +1,17 @@
 import React, {PropTypes} from 'react'
+import R from 'ramda'
 
-const HeaderMenu = () => {
+import { MenuItem } from '../../atoms'
+import './header-menu.css'
+
+const HeaderMenu = ({menuItems}) => {
   return(
-    <div>
-      Header Menu!
+    <div className="header-menu">
+      {R.map(m =>
+        <div className="header-menu__item">
+          <MenuItem item={m.toUpperCase()} />
+        </div>
+      ,menuItems)}
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react'
 
-import {CommentArea, Header, Slider, Home, Blog, Contact, Footer} from '../organisms'
+import {CommentArea, Header, Home, Blog, Contact, Footer} from '../organisms'
+import Slider from '../../containers/Slider'
 import Careers from '../../containers/Careers'
 import './main.css'
 

@@ -1,0 +1,16 @@
+.footer-menu {
+  display: flex;
+  align-items: center
+}
+
+.footer-menu__item {
+  margin: 0px 30px;
+}
+
+.footer-menu__item * {
+  font-size: 18px;
+}
+
+.footer-menu__item:last-child {
+  margin: 0px 0px;
+}

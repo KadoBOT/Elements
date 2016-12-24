@@ -1,6 +1,6 @@
 .clients {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 70px;
   padding: 0 140px;

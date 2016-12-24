@@ -7,7 +7,11 @@ import './about.css'
 
 const About = ({title, subtitle, text}) => {
   return(
-    <div className="about">
+    <div
+      className="about"
+      data-aos="flip-up"
+      data-aos-anchor-placement="top-center"
+    >
       {title && <Title>
         {title}
       </Title>}

@@ -1,0 +1,8 @@
+.header-menu {
+  display: flex;
+}
+
+.header-menu__item {
+  padding: 0px 30px;
+  height: 50px;
+}
