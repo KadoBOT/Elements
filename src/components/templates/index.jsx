@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react'
 
-import {Header, Slider, Home, Blog, Contact, Footer} from '../organisms'
+import {CommentArea, Header, Slider, Home, Blog, Contact, Footer} from '../organisms'
 import Careers from '../../containers/Careers'
 import './main.css'
 
@@ -14,6 +14,7 @@ const App = () => (
       <Home />
       <Careers />
       <Blog />
+      <CommentArea />
       <Contact />
     </div>
     <Footer />

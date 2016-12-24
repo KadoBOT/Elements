@@ -1,0 +1,26 @@
+.comment-form {
+  border-bottom: 4px solid #ec0f50;
+  padding-bottom: 100px;
+}
+
+.comment-form__row {
+  display: flex;
+}
+
+.comment-form__row--text-area {
+  display: flex;
+  margin-top: 70px;
+}
+
+.comment-form__row--submit {
+  text-align: center;
+  padding: 30px;
+}
+
+.comment-form__row > label:first-child {
+  margin-right: 70px;
+}
+
+.comment-form__row > label:not(:first-child) {
+  margin-left: 70px;
+}

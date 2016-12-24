@@ -1,8 +1,8 @@
 import About from './About'
 import City from './City'
 import Clients from './Clients'
-import CommentForm from './CommentForm'
 import Comments from './Comments'
+import CommentForm from './CommentForm'
 import ContactForm from './ContactForm'
 import Content from './Content'
 import FooterMenu from './FooterMenu'
@@ -15,8 +15,8 @@ module.exports = {
   About,
   City,
   Clients,
-  CommentForm,
   Comments,
+  CommentForm,
   ContactForm,
   Content,
   FooterMenu,

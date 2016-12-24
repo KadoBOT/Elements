@@ -1,0 +1,11 @@
+.contact {
+  box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.47);
+  width: 100%;
+  background-color: #f1f1f1;
+  width: 100%;
+  background-image: url('../../../assets/Extra/elements-footer-pattern.png');
+  padding: 100px 0px 575px 0px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: contain;
+}

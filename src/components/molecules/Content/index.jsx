@@ -1,5 +1,6 @@
 import React, {PropTypes} from 'react'
 
+import { Parallax } from '../../atoms/'
 import { Text } from '../../atoms/Text'
 import './content.css'
 
@@ -14,7 +15,7 @@ const Content = () => {
         </Text>
       </div>
       <div className="content--right">
-        [PARALLAX_HERE]
+        <Parallax />
       </div>
     </div>
   )

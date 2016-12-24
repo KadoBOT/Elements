@@ -2,6 +2,7 @@
   background: url('../../../assets/Blog/device-lab-testing.jpg');
   height: 780px;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   display: flex;
   flex-direction: column;

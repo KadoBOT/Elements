@@ -1,9 +1,14 @@
 import React, {PropTypes} from 'react'
+import R from 'ramda'
 
-const Images = () => {
+import './images.css'
+
+const Images = ({images}) => {
   return(
-    <div>
-      Images
+    <div className="images">
+      {R.map(i =>
+        <div className={`images__${i}`} />
+      , images)}
     </div>
   )
 }

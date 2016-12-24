@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react'
 
-import { About, Comments, CommentForm, Content, Hero, Images } from '../../molecules'
+import { About, Content, Hero } from '../../molecules'
+import Images from '../../../containers/Images'
 import './blog.css'
 
 const Blog = () => {
@@ -19,8 +20,6 @@ const Blog = () => {
       />
       <Content />
       <Images />
-      <CommentForm />
-      <Comments />
     </div>
   )
 }

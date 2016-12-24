@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1050px;
+  width: 100%;
+  padding: 0 205px
 }
 
 .about__separator {

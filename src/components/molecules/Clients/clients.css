@@ -1,9 +1,9 @@
 .clients {
   display: flex;
   justify-content: space-between;
-  width: 1375px;
   flex-wrap: wrap;
   margin-top: 70px;
+  padding: 0 140px;
 }
 
 .clients > p {

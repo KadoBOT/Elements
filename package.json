@@ -6,11 +6,12 @@
     "react-scripts": "0.8.4"
   },
   "dependencies": {
+    "aos": "^2.1.1",
     "ramda": "^0.22.1",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-redux": "^5.0.1",
-    "react-spark-scroll-gsap": "^2.0.2",
+    "react-stickynode": "^1.2.1",
     "redux": "^3.6.0",
     "redux-act": "^1.1.0",
     "redux-saga": "^0.13.0",

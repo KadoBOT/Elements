@@ -1,5 +1,5 @@
 .template__middle {
-    padding: 100px 0px 410px 0px;
+    padding: 100px 0px 0px 0px;
     margin: 0px 112px;
     box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.42);
     background: #f6f6f6;
@@ -7,4 +7,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }

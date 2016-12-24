@@ -1,0 +1,19 @@
+.images {
+  display: flex;
+  height: 600px;
+  margin: 0px 35px;
+}
+
+.images > div {
+  background-size: cover;
+  flex: 1;
+  margin: 0px 35px;
+}
+
+.images__developers {
+  background: url('../../../assets/Blog/developers-analyzing.jpg')
+}
+
+.images__lab {
+  background: url('../../../assets/Blog/device-lab-testing.jpg')
+}
