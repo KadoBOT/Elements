@@ -6,7 +6,7 @@ import './blog.css'
 
 const Blog = () => {
   return(
-    <div className="blog">
+    <div id="BLOG" className="blog">
       <div className="blog__about">
         <About
           subtitle="Great apps and webs for all!"

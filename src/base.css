@@ -5,6 +5,8 @@
   vertical-align:baseline;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #6e7683;
 }
 
 #root {

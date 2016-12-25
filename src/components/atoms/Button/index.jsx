@@ -1,17 +1,19 @@
 import React, {PropTypes} from 'react'
-import styled from 'styled-components';
+import './button.css'
 
-const Button = styled.button`
-background: #ec0f50;
-border: none;
-color: white;
-font-size: 29px;
-padding: 20px 60px;
-border-radius: 6px;
-`
+const Button = ({onSubmit, children}) => {
+  return(
+    <button
+      className="button"
+      onClick={onSubmit}
+    >
+      {children}
+    </button>
+  )
+}
 
-// Button.propTypes = {
-//   props: PropTypes.type
-// }
+Button.propTypes = {
+  props: PropTypes.type
+}
 
 export default Button

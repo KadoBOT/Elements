@@ -1,13 +1,13 @@
 .hero {
   background: url('../../../assets/Blog/device-lab-testing.jpg');
-  height: 780px;
+  height: 39vw;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 70px;
+  padding: 3.5vw;
   z-index: 0;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.58);
 }

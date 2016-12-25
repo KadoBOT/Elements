@@ -8,7 +8,7 @@ const Client = ({client}) => {
     <div className="client">
       <div className="client__logo">
         <div style={{
-          'background-image': `url('${isRetina ? client.logo_2x : client.logo}')`
+          'backgroundImage': `url('${isRetina ? client.logo_2x : client.logo}')`
         }}/>
       </div>
     </div>

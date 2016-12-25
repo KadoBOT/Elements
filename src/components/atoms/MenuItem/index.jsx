@@ -6,7 +6,7 @@ import './menu-item.css'
 const MenuItem = ({item}) => {
   return(
     <Text className="menu-item">
-      {item}
+      <a href={`#${item}`}>{item}</a>
     </Text>
   )
 }

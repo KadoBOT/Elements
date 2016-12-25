@@ -3,7 +3,7 @@ import React, {PropTypes} from 'react'
 import { Text } from '../Text'
 import './input.css'
 
-const Input = ({isRequired, label, placeholder, type}) => {
+const Input = ({isRequired, label, name, onChange, placeholder, type, value}) => {
   return(
     <label className="input">
       <p className="input__label">
@@ -13,8 +13,11 @@ const Input = ({isRequired, label, placeholder, type}) => {
         </Text>
       </p>
       <input
+        name={name}
+        onChange={onChange}
         placeholder={placeholder}
         type={type}
+        value={value}
       />
     </label>
   )

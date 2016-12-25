@@ -5,13 +5,14 @@ import { Button } from '../../atoms'
 import './slider-content.css'
 
 const SliderContent = ({carousel, image}) => {
-  console.log(carousel);
   return(
     <div className="slider-content">
       <div className="slider-content__text">
         <Text>{carousel.title}</Text>
         <Title>{carousel.subtitle}</Title>
-        <Button>{carousel.action}</Button>
+        <a href={carousel.action_url}>
+          <Button>{carousel.action}</Button>
+        </a>
       </div>
       <img src={image} />
     </div>

@@ -1,18 +1,17 @@
 .comments {
-  padding: 70px 0px;
+  padding: 3.5vw 0px;
   border-bottom: 2px solid #e8e8e8;
-  margin-bottom: 70px;
 }
 
 .comments__info {
-  padding: 35px 0px;
+  padding-bottom: 1.75vw;
   display: flex;
 }
 
 .comments__info__author {
   color: #ec0f50;
   font-weight: bold;
-  margin-right: 35px;
+  margin-right: 1.75vw;
 }
 
 .comments__comment {

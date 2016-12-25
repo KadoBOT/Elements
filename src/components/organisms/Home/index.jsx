@@ -6,7 +6,7 @@ import './home.css'
 
 const Home = () => {
   return(
-    <div className="home">
+    <div id="HOME" className="home">
       <About
         title="Creating rock solid applications for web and mobile"
         subtitle="Great projects for relevant companies"

@@ -3,7 +3,7 @@ import React, {PropTypes} from 'react'
 import { Text } from '../Text'
 import './text-area.css'
 
-const TextArea = ({isRequired, placeholder, label}) => {
+const TextArea = ({isRequired, name, onChange, placeholder, label, value}) => {
   return(
     <label className="text-area">
       <p className="text-area__label">
@@ -12,7 +12,12 @@ const TextArea = ({isRequired, placeholder, label}) => {
           {isRequired && <span className="text-area__required">•</span>}
         </Text>
       </p>
-      <textarea placeholder={placeholder} />
+      <textarea
+        name={name}
+        onChange={onChange}
+        placeholder={placeholder}
+        value={value}
+      />
     </label>
   )
 }

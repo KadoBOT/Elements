@@ -2,11 +2,11 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 70px;
-  padding: 0 140px;
+  margin-top: 3.5vw;
+  padding: 0 7vw;
 }
 
 .clients > p {
   width: 100%;
-  margin: 100px 0px;
+  margin: 5vw 0px;
 }

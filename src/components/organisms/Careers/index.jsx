@@ -6,7 +6,7 @@ import './careers.css'
 
 const Careers = ({careers}) => {
   return(
-    <div className="careers">
+    <div id="CAREERS" className="careers">
       <div className="careers__about">
         <About
           subtitle="Join a magnificent and fun team"

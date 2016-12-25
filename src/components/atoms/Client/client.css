@@ -1,14 +1,14 @@
 .client {
-  width: 370px;
-  height: 365px;
-  margin: 30px 0px;
+  width: 18.49vw;
+  height: 18.49vw;
+  margin: 1,5vw 0px;
   display: flex;
   justify-content: center;
 }
 
 .client__logo {
   background: url('../../../assets/Extra/company-logo-frame.png');
-  width: 312px;
+  width: 15.6vw;
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -20,28 +20,4 @@
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.client__logo__mcdonalds {
-  background: url('../../../assets/Projects/mcdonalds.png');
-}
-
-.client__logo__adidas {
-  background: url('../../../assets/Projects/addidas-logo.png');
-}
-
-.client__logo__greenpeace {
-  background: url('../../../assets/Projects/greenpeace-logo.png');
-}
-
-.client__logo__tnt {
-  background: url('../../../assets/Projects/tnt-logo.png');
-}
-
-.client__logo__philips {
-  background: url('../../../assets/Projects/philips-logo.png');
-}
-
-.client__logo__elements {
-  background: url('../../../assets/Projects/elements-logo.png');
 }

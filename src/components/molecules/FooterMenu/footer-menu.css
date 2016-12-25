@@ -4,11 +4,11 @@
 }
 
 .footer-menu__item {
-  margin: 0px 30px;
+  margin: 0px 1.5vw;
 }
 
 .footer-menu__item * {
-  font-size: 18px;
+  font-size: 0.9vw;
 }
 
 .footer-menu__item:last-child {

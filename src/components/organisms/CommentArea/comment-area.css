@@ -1,4 +1,11 @@
 .comment-area {
-  margin-top: 70px;
-  padding: 0px 70px;
+  margin-top: 3.5vw;
+  padding: 0px 3.5vw;
+  width: 100%;
+}
+
+.comment-area__comments {
+  overflow: auto;
+  height: 12.45vw;
+  margin-bottom: 3.5vw;
 }

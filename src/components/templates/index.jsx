@@ -1,8 +1,10 @@
 import React, {PropTypes} from 'react'
 
-import {CommentArea, Header, Home, Blog, Contact, Footer} from '../organisms'
+import { Header, Home, Blog, Footer } from '../organisms'
 import Slider from '../../containers/Slider'
 import Careers from '../../containers/Careers'
+import CommentArea from '../../containers/CommentArea'
+import Contact from '../../containers/Contact'
 import './main.css'
 
 const App = () => (

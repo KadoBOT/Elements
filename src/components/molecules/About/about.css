@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0 205px
+  padding: 0 11vw
 }
 
 .about__separator {
-  padding: 80px 0px;
+  padding: 4vw 0px;
+  width: 60vw;
 }

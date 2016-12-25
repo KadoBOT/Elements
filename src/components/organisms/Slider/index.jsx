@@ -8,8 +8,8 @@ import './slider.css'
 
 const style  = {
   color: 'rgba(255, 255, 255, 0.61)',
-  fontSize: '128px',
-  padding: '20px',
+  fontSize: '8.53vw',
+  padding: '1.33vw',
   cursor: 'pointer'
 }
 
@@ -75,7 +75,7 @@ const Decorators = [{
       return {
         position: 'relative',
         margin: 0,
-        top: -10,
+        top: '0.66vw',
         padding: 0
       }
     },
@@ -91,9 +91,9 @@ const Decorators = [{
         background: 'transparent',
         color: 'white',
         cursor: 'pointer',
-        padding: 10,
+        padding: '0.66vw',
         outline: 0,
-        fontSize: 56,
+        fontSize: '3.73vw',
         opacity: active ? 1 : 0.5
       }
     }

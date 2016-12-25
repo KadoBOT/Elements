@@ -1,6 +1,6 @@
 .parallax {
   position: absolute;
-  margin-top: -200px;
+  margin-top: -10vw;
   background-attachment: scroll !important;
   width: 100%;
   background-repeat: no-repeat !important;
@@ -8,72 +8,65 @@
 }
 
 .parallax--wrapper {
-  height: 300px;
+  height: 15vw;
 }
 
 .parallax--end {
   position: absolute;;
-  margin-top: -100px;
-  height: 300px;
+  margin-top: -5vw;
+  height: 15vw;
 }
 
 .parallax__android__phone {
-  height: 470px;
-  margin-left: 100px;
-  margin-top: 100px;
-  background: url('../../../assets/Parallax/nokia-lumia-device.png')
-}
-
-.parallax__android__phone {
-  height: 470px;
-  margin-left: 100px;
-  margin-top: 100px;
+  height: 21.5vw;
+  margin-left: 5vw;
+  margin-top: 5vw;
   background: url('../../../assets/Parallax/nokia-lumia-device.png')
 }
 
 .parallax__ios__phone {
-  height: 700px;
-  margin-left: 268px;
+  height: 30vw;
+  margin-left: 14.4vw;
   background: url('../../../assets/Parallax/iphone-device.png')
 }
 
 .parallax__polygon {
   margin-top: -45px;
-  height: 130px;
+  height: 6.5vw;
   position: absolute;
-  margin-left: 100px;
+  margin-left: 5vw;
   background: url('../../../assets/Extra/polygon.png');
   text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 }
 
 .parallax__polygon__ios {
-  top: -100px;
-  left: 360px;
+  top: -5vw;
+  left: 18vw;
   z-index: 1;
   margin-top: -45px;
-  height: 130px;
+  height: 6.5vw;
   position: absolute;
-  margin-left: 100px;
+  margin-left: 5vw;
   background: url('../../../assets/Extra/polygon.png');
   text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 }
 
 .parallax__android__icon {
   position: absolute;
-  top: -70px;
-  left: -70px;
-  height: 70px;
-  margin-left: 100px;
-  margin-top: 100px;
+  top: -3.5vw;
+  left: -3.5vw;
+  height: 3.5vw;
+  margin-left: 5vw;
+  margin-top: 5vw;
   background: url('../../../assets/Parallax/android-logo.png')
 }
 
 .parallax__ios__icon {
   position: absolute;
-  top: -50px;
-  left: -70px;
-  height: 35px;
-  margin-left: 100px;
-  margin-top: 100px;
+  top: -2.5vw;
+  left: -3.5vw;
+  height: 1.75vw;
+  margin-left: 5vw;
+  margin-top: 5vw;
   background: url('../../../assets/Parallax/IOS-logo.png')
 }

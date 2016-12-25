@@ -1,13 +1,13 @@
 .images {
   display: flex;
-  height: 600px;
-  margin: 0px 35px;
+  height: 20vw;
+  margin: 0px 1.75vw;
 }
 
 .images > div {
   background-size: cover;
   flex: 1;
-  margin: 0px 35px;
+  margin: 0px 1.75vw;
 }
 
 .images__developers {

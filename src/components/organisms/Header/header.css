@@ -1,14 +1,19 @@
 .header {
-  height: 140px;
+  height: 6.33vw;
   background: #ffffff;
   display: flex;
   align-items: center;
-  padding: 0px 140px;
+  padding: 0px 9.33vw;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
 }
 
 .header__logo {
   background: url('../../../assets/Projects/elements-logo.png');
-  height: 57px;
+  height: 3.8vw;
+  background-size: 13.8vw;
   background-repeat: no-repeat;
   flex: 1;
 }
