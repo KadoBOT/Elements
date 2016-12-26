@@ -4,18 +4,18 @@ import R from 'ramda'
 import { Description } from '../../atoms/Text'
 import './text-columns.css'
 
-const TextColumns = ({city}) => {
-  return(
-    <div className="text-columns">
-      {R.map(t =>
-        <Description>{t}</Description>
-        , city.texts)}
-    </div>
-  )
-}
+const TextColumns = ({city}) => (
+  <div className="text-columns">
+    {R.map(t =>
+      <Description key={t}>{t}</Description>
+      , city.texts)}
+  </div>
+)
 
 TextColumns.propTypes = {
-  props: PropTypes.type
+  city: PropTypes.shape({
+    texts: PropTypes.array
+  }).isRequired
 }
 
 export default TextColumns

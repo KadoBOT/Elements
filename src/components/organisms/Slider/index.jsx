@@ -118,7 +118,6 @@ class Slider extends React.Component {
 
     return(
       <div className="slider__wrapper">
-        {/* <SliderContent /> */}
         <Carousel
           autoplay={true}
           decorators={Decorators}
@@ -128,6 +127,7 @@ class Slider extends React.Component {
             <SliderContent
               carousel={c}
               image={isRetina ? c.image_2x : c.image}
+              key={c}
             />
           , carousel.results)}
         </Carousel>
@@ -137,7 +137,8 @@ class Slider extends React.Component {
 }
 
 Slider.propTypes = {
-  props: PropTypes.type
+  running: PropTypes.bool,
+  carousel: PropTypes.any
 }
 
 export default Slider

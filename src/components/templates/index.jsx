@@ -1,4 +1,4 @@
-import React, {PropTypes} from 'react'
+import React from 'react'
 
 import { Header, Home, Blog, Footer } from '../organisms'
 import Slider from '../../containers/Slider'
@@ -23,9 +23,5 @@ const App = () => (
     <Footer />
   </div>
 )
-
-App.propTypes = {
-  props: PropTypes.type
-}
 
 export default App

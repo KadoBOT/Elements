@@ -1,5 +1,5 @@
 import { createReducer } from 'redux-act'
-import { clearMessage, handleMessage } from '../actions'
+import { clearMessage, handleMessage, handleMessageErrors } from '../actions'
 
 export default createReducer({
   [handleMessage]: (state, evt) => ({
@@ -9,17 +9,38 @@ export default createReducer({
       [evt.target.name]: evt.target.value
     }
   }),
-  [clearMessage]: (state) => ({...state, message: {
-    name: '',
-    email: '',
-    telephone: '',
-    message: ''
-  }})
+  [handleMessageErrors]: (state, errors) => {
+    console.log('state err', errors)
+    return {
+      ...state,
+      errors
+    }
+  },
+  [clearMessage]: (state) => ({...state,
+      message: {
+      name: '',
+      email: '',
+      telephone: '',
+      message: ''
+    },
+    errors: {
+      name: [],
+      email: [],
+      telephone: [],
+      message: []
+    }
+  })
 }, {
   message: {
     name: '',
     email: '',
     telephone: '',
     message: ''
+  },
+  errors: {
+    name: [],
+    email: [],
+    telephone: [],
+    message: []
   }
 })

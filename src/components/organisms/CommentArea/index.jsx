@@ -19,7 +19,7 @@ class CommentArea extends React.Component {
   )
 
   render() {
-    const { comment, comments, running } = this.props
+    const { comment, comments, errors, running } = this.props
     const isLoading = running || !comments
 
     if(isLoading) {
@@ -31,12 +31,13 @@ class CommentArea extends React.Component {
         <About subtitle="Leave a Comment" />
         <CommentForm
           comment={comment}
+          errors={errors}
           onChange={this.props.handleForm}
           onSubmit={this.sendComment}
         />
         <div className="comment-area__comments">
-          {R.map( c =>
-            <Comments comment={c} />
+          {R.map(c =>
+            <Comments key={Math.random()} comment={c} />
           ,comments.results)}
         </div>
       </div>
@@ -45,7 +46,11 @@ class CommentArea extends React.Component {
 }
 
 CommentArea.propTypes = {
-  props: PropTypes.type
+  fetchComments: PropTypes.func.isRequired,
+  comment: PropTypes.object.isRequired,
+  comments: PropTypes.any.isRequired,
+  errors: PropTypes.object.isRequired,
+  running: PropTypes.bool.isRequired,
 }
 
 export default CommentArea

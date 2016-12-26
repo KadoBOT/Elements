@@ -3,18 +3,16 @@ import R from 'ramda'
 
 import './images.css'
 
-const Images = ({images}) => {
-  return(
-    <div className="images">
-      {R.map(i =>
-        <div className={`images__${i}`} />
-      , images)}
-    </div>
-  )
-}
+const Images = ({images}) => (
+  <div className="images">
+    {R.map(i =>
+      <div key={i} className={`images__${i}`} />
+    , images)}
+  </div>
+)
 
 Images.propTypes = {
-  props: PropTypes.type
+  images: PropTypes.array.isRequired,
 }
 
 export default Images

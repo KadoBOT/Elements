@@ -1,6 +1,5 @@
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import R from 'ramda'
 
 import * as actions from '../../actions'
 import Clients from '../../components/molecules/Clients'

@@ -3,7 +3,7 @@ import React, {PropTypes} from 'react'
 import { About, ContactForm } from '../../molecules'
 import './contact.css'
 
-const Contact = ({message, handleMessage, sendMessage}) => {
+const Contact = ({ errors, message, handleMessage, sendMessage}) => {
   const submitMessage = () => (
     sendMessage({
       name: message.name,
@@ -19,6 +19,7 @@ const Contact = ({message, handleMessage, sendMessage}) => {
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       />
       <ContactForm
+        errors={errors}
         message={message}
         onChange={handleMessage}
         onSubmit={submitMessage}
@@ -28,7 +29,10 @@ const Contact = ({message, handleMessage, sendMessage}) => {
 }
 
 Contact.propTypes = {
-  Contact: PropTypes.type
+  errors: PropTypes.object.isRequired,
+  message: PropTypes.object.isRequired,
+  handleMessage: PropTypes.func.isRequired,
+  sendMessage: PropTypes.func.isRequired,
 }
 
 export default Contact

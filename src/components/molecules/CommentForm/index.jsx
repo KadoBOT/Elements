@@ -1,10 +1,9 @@
 import React, {PropTypes} from 'react'
 
 import { Button, Input, TextArea } from '../../atoms'
-import { Text, Subtitle } from '../../atoms/Text'
 import './comment-form.css'
 
-const CommentForm = ({comment, onSubmit, onChange}) => {
+const CommentForm = ({comment, errors, onSubmit, onChange}) => {
   const submitForm = () => {
     onSubmit()
   }
@@ -13,6 +12,7 @@ const CommentForm = ({comment, onSubmit, onChange}) => {
     <div className="comment-form">
       <div className="comment-form__row">
         <Input
+          errors={errors.name}
           isRequired
           label="Name"
           name="name"
@@ -22,6 +22,7 @@ const CommentForm = ({comment, onSubmit, onChange}) => {
           value={comment.name}
         />
         <Input
+          errors={errors.email}
           isRequired
           label="Email"
           name="email"
@@ -33,6 +34,7 @@ const CommentForm = ({comment, onSubmit, onChange}) => {
       </div>
       <div className="comment-form__row--text-area">
         <TextArea
+          errors={errors.comment}
           label="Comment"
           isRequired
           name="comment"
@@ -51,7 +53,10 @@ const CommentForm = ({comment, onSubmit, onChange}) => {
 }
 
 CommentForm.propTypes = {
-  props: PropTypes.type
+  comment: PropTypes.any.isRequired,
+  errors: PropTypes.object.isRequired,
+  onSubmit: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired,
 }
 
 export default CommentForm

@@ -1,6 +1,9 @@
 import { createAction } from 'redux-act'
+import React from 'react'
 import R from 'ramda'
+
 import api from '../helpers/_api'
+import Toasted from '../helpers/_toasted'
 
 export const requestClients = createAction()
 export const receiveClients = createAction()
@@ -21,6 +24,7 @@ export const fetchCarousel = () => dispatch => {
 }
 
 export const requestComments = createAction()
+export const handleErrors = createAction()
 export const receiveComments = createAction()
 export const postComment = createAction()
 export const handleForm = createAction()
@@ -37,16 +41,45 @@ export const fetchComments = () => dispatch => {
 export const sendComment = payload => dispatch => {
   api.post('comments/', payload)
   .then(() => {
+    Toasted(
+      <span>
+        Comment Sent Successfully!
+      </span>
+    )
     dispatch(requestComments())
     dispatch(clearForm())
     return api.get('comments/').then(R.compose(dispatch, receiveComments, R.prop('data')))
+  })
+  .catch(err => {
+    Toasted(
+      <span>
+        Failed to Send Comment... please try again later.
+      </span>
+    , 'error')
+    dispatch(handleErrors(err.response.data))
   })
 }
 
 export const clearMessage = createAction()
 export const handleMessage = createAction()
+export const handleMessageErrors = createAction()
 
 export const sendMessage = payload => dispatch => {
   api.post('message/', payload)
-  .then(() => dispatch(clearMessage()))
+  .then(() => {
+    Toasted(
+      <span>
+        Message Sent Successfully!
+      </span>
+    )
+    dispatch(clearMessage())
+  })
+  .catch(err => {
+    Toasted(
+      <span>
+        Failed to Send Message... please try again later.
+      </span>
+    , 'error')
+    dispatch(handleMessageErrors(err.response.data))
+  })
 }

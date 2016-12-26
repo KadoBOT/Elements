@@ -5,30 +5,30 @@ import { Divider, Separator } from '../../atoms'
 
 import './about.css'
 
-const About = ({title, subtitle, text}) => {
-  return(
-    <div
-      className="about"
-      data-aos="flip-up"
-      data-aos-anchor-placement="top-center"
-    >
-      {title && <Title>
-        {title}
-      </Title>}
-      {title && <Separator /> }
-      {subtitle && <SubTitle>
-        {subtitle}
-      </SubTitle>}
-      {subtitle && <Divider /> }
-      {text && <Text>
-        {text}
-      </Text>}
-    </div>
-  )
-}
+const About = ({title, subtitle, text}) => (
+  <div
+    className="about"
+    data-aos="flip-up"
+    data-aos-anchor-placement="top-center"
+  >
+    {title && <Title>
+      {title}
+    </Title>}
+    {title && <Separator /> }
+    {subtitle && <SubTitle>
+      {subtitle}
+    </SubTitle>}
+    {subtitle && <Divider /> }
+    {text && <Text>
+      {text}
+    </Text>}
+  </div>
+)
 
 About.propTypes = {
-  props: PropTypes.type
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default About

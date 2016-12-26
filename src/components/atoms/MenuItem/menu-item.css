@@ -1,5 +1,6 @@
 .menu-item > a {
   cursor: pointer;
+  color: #6e7683;
 }
 
 .menu-item:hover {

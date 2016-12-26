@@ -1,19 +1,18 @@
 import React, {PropTypes} from 'react'
 import './button.css'
 
-const Button = ({onSubmit, children}) => {
-  return(
-    <button
-      className="button"
-      onClick={onSubmit}
-    >
-      {children}
-    </button>
-  )
-}
+const Button = ({onSubmit, children}) => (
+  <button
+    className="button"
+    onClick={onSubmit}
+  >
+    {children}
+  </button>
+)
 
 Button.propTypes = {
-  props: PropTypes.type
+  onSubmit: PropTypes.func,
+  children: PropTypes.node.isRequired,
 }
 
 export default Button

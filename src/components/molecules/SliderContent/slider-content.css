@@ -15,11 +15,17 @@
 }
 
 .slider-content__text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  left: 0;
+  height: 100%;
 }
 
 .slider-content * {

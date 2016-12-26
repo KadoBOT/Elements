@@ -27,7 +27,7 @@ class Clients extends React.Component {
         data-aos-anchor-placement="top-center"
       >
         {R.map(c =>
-          <Client client={c}/>
+          <Client key={c.name} client={c}/>
         , clients.results)}
         <Text>
           Discover many more, or else you can contact us for more information.
@@ -38,7 +38,9 @@ class Clients extends React.Component {
 }
 
 Clients.propTypes = {
-  props: PropTypes.type
+  fetchClients: PropTypes.func.isRequired,
+  clients: PropTypes.any.isRequired,
+  running: PropTypes.bool.isRequired,
 }
 
 export default Clients

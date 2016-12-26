@@ -1,7 +1,7 @@
 .client {
-  width: 18.49vw;
-  height: 18.49vw;
-  margin: 1,5vw 0px;
+  width: 19.49vw;
+  height: 18vw;
+  margin: 1.5vw 0px;
   display: flex;
   justify-content: center;
 }

@@ -12,6 +12,21 @@
   text-align: left;
 }
 
+.input__errors {
+  padding-left: 2vw;
+  margin-top: 0.5vw;
+  font-size: 0.8em;
+}
+
+.input__errors > li {
+  list-style: disc;
+  color: #ec0f50;
+}
+
+.input__error-true {
+  border: 1px solid #ec0f50 !important;
+}
+
 .input__required {
   color: #ec0f50;
   position: absolute;

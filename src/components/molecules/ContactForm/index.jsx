@@ -4,7 +4,7 @@ import { Button, Input, TextArea } from '../../atoms'
 import { Title, Text } from '../../atoms/Text'
 import './contact-form.css'
 
-const ContactForm = ({message, onChange, onSubmit}) => {
+const ContactForm = ({errors, message, onChange, onSubmit}) => {
   const submitForm = () => {
     onSubmit()
   }
@@ -13,13 +13,14 @@ const ContactForm = ({message, onChange, onSubmit}) => {
     <div className="contact-form">
       <div className="contact-form__info">
         <Title>Send us a message</Title>
-        <p className="contact-form__info__required">
+        <div className="contact-form__info__required">
           <Text className="contact-form__info__required--bullet">•</Text>
           <Text className="contact-form__info__required--subtitle">Required Fields</Text>
-        </p>
+        </div>
       </div>
       <div className="contact-form__row">
         <Input
+          errors={errors.name}
           isRequired
           label="Name"
           name="name"
@@ -31,6 +32,7 @@ const ContactForm = ({message, onChange, onSubmit}) => {
       </div>
       <div className="contact-form__row">
         <Input
+          errors={errors.email}
           isRequired
           label="Email"
           name="email"
@@ -42,6 +44,7 @@ const ContactForm = ({message, onChange, onSubmit}) => {
       </div>
       <div className="contact-form__row">
         <Input
+          errors={errors.telephone}
           isRequired
           label="Telephone"
           name="telephone"
@@ -53,6 +56,7 @@ const ContactForm = ({message, onChange, onSubmit}) => {
       </div>
       <div className="contact-form__row--text-area">
         <TextArea
+          errors={errors.message}
           label="Message"
           isRequired
           name="message"
@@ -69,7 +73,10 @@ const ContactForm = ({message, onChange, onSubmit}) => {
 }
 
 ContactForm.propTypes = {
-  props: PropTypes.type
+  errors: PropTypes.object.isRequired,
+  message: PropTypes.object.isRequired,
+  onChange: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired
 }
 
 export default ContactForm

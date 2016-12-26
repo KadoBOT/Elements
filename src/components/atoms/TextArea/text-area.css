@@ -18,6 +18,21 @@
   top: -0.25vw;
 }
 
+.text-area__errors {
+  padding-left: 2vw;
+  margin-top: 0.5vw;
+  font-size: 0.8em;
+}
+
+.text-area__errors > li {
+  list-style: disc;
+  color: #ec0f50;
+}
+
+.text-area__error-true {
+  border: 1px solid #ec0f50 !important;
+}
+
 .text-area > textarea {
   width: 100%;
   height: 12.5vw;

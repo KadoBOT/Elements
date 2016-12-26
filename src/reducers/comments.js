@@ -1,5 +1,5 @@
 import { createReducer } from 'redux-act'
-import { clearForm, handleForm, requestComments, receiveComments } from '../actions'
+import { clearForm, handleErrors, handleForm, requestComments, receiveComments } from '../actions'
 
 export default createReducer({
   [requestComments]: (state) => ({...state, running: true}),
@@ -11,11 +11,25 @@ export default createReducer({
       [evt.target.name]: evt.target.value
     }
   }),
-  [clearForm]: (state) => ({...state, comment: {
-    name: '',
-    email: '',
-    comment: ''
-  }})
+  [handleErrors]: (state, errors) => {
+    console.log('state err', errors)
+    return {
+      ...state,
+      errors
+    }
+  },
+  [clearForm]: (state) => ({...state,
+    comment: {
+      name: '',
+      email: '',
+      comment: ''
+    },
+    errors: {
+      name: [],
+      email: [],
+      comment: []
+    }
+  })
 }, {
   running: false,
   comments: false,
@@ -23,5 +37,10 @@ export default createReducer({
     name: '',
     email: '',
     comment: ''
+  },
+  errors: {
+    name: [],
+    email: [],
+    comment: []
   }
 })
