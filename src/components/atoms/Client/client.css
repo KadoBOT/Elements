@@ -1,3 +1,11 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .client__logo {
+    background: url('../../../assets/Extra/company-logo-frame@2x.png') !important;
+  }
+}
+
 .client {
   width: 19.49vw;
   height: 18vw;
@@ -11,7 +19,7 @@
   width: 15.6vw;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% !important;
 }
 
 .client__logo > div {

@@ -1,3 +1,15 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .images__developers {
+    background: url('../../../assets/Blog/developers-analyzing@2x.jpg') !important
+  }
+
+  .images__lab {
+    background: url('../../../assets/Blog/device-lab-testing@2x.jpg') !important
+  }
+}
+
 .images {
   display: flex;
   height: 20vw;
@@ -5,7 +17,7 @@
 }
 
 .images > div {
-  background-size: cover;
+  background-size: cover !important;
   flex: 1;
   margin: 0px 1.75vw;
 }

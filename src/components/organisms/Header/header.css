@@ -1,3 +1,11 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .header__logo {
+    background: url('../../../assets/Projects/elements-logo@2x.png') !important;
+  }
+}
+
 .header {
   height: 6.33vw;
   background: #ffffff;
@@ -13,7 +21,7 @@
 .header__logo {
   background: url('../../../assets/Projects/elements-logo.png');
   height: 3.8vw;
-  background-size: 13.8vw;
-  background-repeat: no-repeat;
+  background-size: 13.8vw !important;
+  background-repeat: no-repeat !important;
   flex: 1;
 }

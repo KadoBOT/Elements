@@ -1,3 +1,11 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .contact {
+    background-image: url('../../../assets/Extra/elements-footer-pattern@2x.png') !important;
+  }
+}
+
 .contact {
   box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.47);
   width: 100%;

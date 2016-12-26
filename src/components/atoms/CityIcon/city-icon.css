@@ -1,3 +1,15 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .city-icon__almere {
+    background: url('../../../assets/About/almere-logo@2x.png') !important;
+  }
+
+  .city-icon__barcelona {
+    background: url('../../../assets/About/bcn-logo@2x.png') !important;
+  }
+}
+
 .city-icon {
   width: 11.49vw;
   height: 13.27vw;

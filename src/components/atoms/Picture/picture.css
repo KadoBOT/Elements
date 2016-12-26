@@ -1,15 +1,27 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .picture__almere {
+    background: url('../../../assets/About/almere-city@2x.png') !important;
+  }
+
+  .picture__barcelona {
+    background: url('../../../assets/About/bcn-city@2x.png') !important;
+  }
+}
+
 .picture__almere {
   background: url('../../../assets/About/almere-city.png');
   width: 100%;
-  height: 34vw;
-  background-size: cover;
+  height: 34vw !important;
+  background-size: cover !important;
   margin-bottom: -8vw;
 }
 
 .picture__barcelona {
-  background: url(/static/media/bcn-city.385d7629.png);
+  background: url('../../../assets/About/bcn-city.png');
   width: 100%;
-  height: 34vw;
-  background-size: cover;
+  height: 34vw !important;
+  background-size: cover !important;
   margin-bottom: -8vw;
 }

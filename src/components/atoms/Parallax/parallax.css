@@ -1,3 +1,31 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .parallax__android__phone {
+    background: url('../../../assets/Parallax/nokia-lumia-device@2x.png') !important 
+  }
+
+  .parallax__ios__phone {
+    background: url('../../../assets/Parallax/iphone-device@2x.png') !important
+  }
+
+  .parallax__polygon {
+    background: url('../../../assets/Extra/polygon@2x.png') !important;
+  }
+
+  .parallax__polygon__ios {
+    background: url('../../../assets/Extra/polygon@2x.png') !important;
+  }
+
+  .parallax__android__icon {
+    background: url('../../../assets/Parallax/android-logo@2x.png') !important
+  }
+
+  .parallax__ios__icon {
+    background: url('../../../assets/Parallax/IOS-logo@2x.png') !important
+  }
+}
+
 .parallax {
   position: absolute;
   margin-top: -10vw;

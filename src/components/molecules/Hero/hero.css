@@ -1,8 +1,16 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .hero {
+    background: url('../../../assets/Blog/device-lab-testing@2x.jpg') !important;
+  }
+}
+
 .hero {
   background: url('../../../assets/Blog/device-lab-testing.jpg');
   height: 39vw;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: cover !important;
+  background-attachment: fixed !important;
   position: relative;
   display: flex;
   flex-direction: column;

@@ -1,3 +1,11 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .contact-form {
+    background-image: url('../../../assets/Extra/elements-pattern@2x.png') !important;
+  }
+}
+
 .contact-form {
   padding-bottom: 5vw;
   background-color: #e8e8e8;
