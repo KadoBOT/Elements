@@ -1,0 +1,377 @@
+exports[`test should render the Slider 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    Loading...
+</div>,
+  "nodes": Array [
+    <div>
+      Loading...
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Slider
+        carousel={false}
+        fetchCarousel={[Function]}
+        running={true} />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Slider {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "carousel": false,
+          "fetchCarousel": [Function],
+          "running": true,
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          Loading...
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          Loading...
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Slider
+    carousel={false}
+    fetchCarousel={[Function]}
+    running={true} />,
+}
+`;
+
+exports[`test should render the Slider 2`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="slider__wrapper">
+    <Carousel
+        afterSlide={[Function]}
+        autoplay={true}
+        autoplayInterval={3000}
+        beforeSlide={[Function]}
+        cellAlign="left"
+        cellSpacing={0}
+        data={[Function]}
+        decorators={
+            Array [
+                Object {
+                  "component": [Function],
+                  "position": "CenterLeft",
+                  "style": Object {
+                    "color": "rgba(255, 255, 255, 0.61)",
+                    "cursor": "pointer",
+                    "fontSize": "8.53vw",
+                    "padding": "1.33vw",
+                  },
+                },
+                Object {
+                  "component": [Function],
+                  "position": "CenterRight",
+                  "style": Object {
+                    "color": "rgba(255, 255, 255, 0.61)",
+                    "cursor": "pointer",
+                    "fontSize": "8.53vw",
+                    "padding": "1.33vw",
+                  },
+                },
+                Object {
+                  "component": [Function],
+                  "position": "BottomCenter",
+                },
+              ]
+        }
+        dragging={true}
+        easing="easeOutCirc"
+        edgeEasing="easeOutElastic"
+        frameOverflow="hidden"
+        framePadding="0px"
+        slideIndex={0}
+        slideWidth={1}
+        slidesToScroll={1}
+        slidesToShow={1}
+        speed={500}
+        vertical={false}
+        width="100%"
+        wrapAround={true}>
+        
+    </Carousel>
+</div>,
+  "nodes": Array [
+    <div
+      className="slider__wrapper">
+      <Carousel
+            afterSlide={[Function]}
+            autoplay={true}
+            autoplayInterval={3000}
+            beforeSlide={[Function]}
+            cellAlign="left"
+            cellSpacing={0}
+            data={[Function]}
+            decorators={
+                  Array [
+                        Object {
+                          "component": [Function],
+                          "position": "CenterLeft",
+                          "style": Object {
+                            "color": "rgba(255, 255, 255, 0.61)",
+                            "cursor": "pointer",
+                            "fontSize": "8.53vw",
+                            "padding": "1.33vw",
+                          },
+                        },
+                        Object {
+                          "component": [Function],
+                          "position": "CenterRight",
+                          "style": Object {
+                            "color": "rgba(255, 255, 255, 0.61)",
+                            "cursor": "pointer",
+                            "fontSize": "8.53vw",
+                            "padding": "1.33vw",
+                          },
+                        },
+                        Object {
+                          "component": [Function],
+                          "position": "BottomCenter",
+                        },
+                      ]
+            }
+            dragging={true}
+            easing="easeOutCirc"
+            edgeEasing="easeOutElastic"
+            frameOverflow="hidden"
+            framePadding="0px"
+            slideIndex={0}
+            slideWidth={1}
+            slidesToScroll={1}
+            slidesToShow={1}
+            speed={500}
+            vertical={false}
+            width="100%"
+            wrapAround={true}>
+            
+      </Carousel>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Slider
+        carousel={
+                Object {
+                        "results": Array [],
+                      }
+        }
+        fetchCarousel={[Function]}
+        running={false} />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Slider {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "carousel": Object {
+            "results": Array [],
+          },
+          "fetchCarousel": [Function],
+          "running": false,
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="slider__wrapper">
+          <Carousel
+                    afterSlide={[Function]}
+                    autoplay={true}
+                    autoplayInterval={3000}
+                    beforeSlide={[Function]}
+                    cellAlign="left"
+                    cellSpacing={0}
+                    data={[Function]}
+                    decorators={
+                              Array [
+                                        Object {
+                                          "component": [Function],
+                                          "position": "CenterLeft",
+                                          "style": Object {
+                                            "color": "rgba(255, 255, 255, 0.61)",
+                                            "cursor": "pointer",
+                                            "fontSize": "8.53vw",
+                                            "padding": "1.33vw",
+                                          },
+                                        },
+                                        Object {
+                                          "component": [Function],
+                                          "position": "CenterRight",
+                                          "style": Object {
+                                            "color": "rgba(255, 255, 255, 0.61)",
+                                            "cursor": "pointer",
+                                            "fontSize": "8.53vw",
+                                            "padding": "1.33vw",
+                                          },
+                                        },
+                                        Object {
+                                          "component": [Function],
+                                          "position": "BottomCenter",
+                                        },
+                                      ]
+                    }
+                    dragging={true}
+                    easing="easeOutCirc"
+                    edgeEasing="easeOutElastic"
+                    frameOverflow="hidden"
+                    framePadding="0px"
+                    slideIndex={0}
+                    slideWidth={1}
+                    slidesToScroll={1}
+                    slidesToShow={1}
+                    speed={500}
+                    vertical={false}
+                    width="100%"
+                    wrapAround={true}>
+                    
+          </Carousel>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div
+          className="slider__wrapper">
+          <Carousel
+                    afterSlide={[Function]}
+                    autoplay={true}
+                    autoplayInterval={3000}
+                    beforeSlide={[Function]}
+                    cellAlign="left"
+                    cellSpacing={0}
+                    data={[Function]}
+                    decorators={
+                              Array [
+                                        Object {
+                                          "component": [Function],
+                                          "position": "CenterLeft",
+                                          "style": Object {
+                                            "color": "rgba(255, 255, 255, 0.61)",
+                                            "cursor": "pointer",
+                                            "fontSize": "8.53vw",
+                                            "padding": "1.33vw",
+                                          },
+                                        },
+                                        Object {
+                                          "component": [Function],
+                                          "position": "CenterRight",
+                                          "style": Object {
+                                            "color": "rgba(255, 255, 255, 0.61)",
+                                            "cursor": "pointer",
+                                            "fontSize": "8.53vw",
+                                            "padding": "1.33vw",
+                                          },
+                                        },
+                                        Object {
+                                          "component": [Function],
+                                          "position": "BottomCenter",
+                                        },
+                                      ]
+                    }
+                    dragging={true}
+                    easing="easeOutCirc"
+                    edgeEasing="easeOutElastic"
+                    frameOverflow="hidden"
+                    framePadding="0px"
+                    slideIndex={0}
+                    slideWidth={1}
+                    slidesToScroll={1}
+                    slidesToShow={1}
+                    speed={500}
+                    vertical={false}
+                    width="100%"
+                    wrapAround={true}>
+                    
+          </Carousel>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Slider
+    carousel={
+        Object {
+            "results": Array [],
+          }
+    }
+    fetchCarousel={[Function]}
+    running={false} />,
+}
+`;

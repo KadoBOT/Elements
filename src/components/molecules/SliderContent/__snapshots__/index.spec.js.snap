@@ -1,0 +1,145 @@
+exports[`test should render the SliderContent 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="slider-content">
+    <div
+        className="slider-content__text">
+        <styled.p />
+        <styled.p />
+        <a
+            href="">
+            <Button />
+        </a>
+    </div>
+    <img
+        alt="image"
+        src="image" />
+</div>,
+  "nodes": Array [
+    <div
+      className="slider-content">
+      <div
+            className="slider-content__text">
+            <styled.p />
+            <styled.p />
+            <a
+                  href="">
+                  <Button />
+            </a>
+      </div>
+      <img
+            alt="image"
+            src="image" />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <SliderContent
+        carousel={
+                Object {
+                        "action": "",
+                        "action_url": "",
+                        "subtitle": "",
+                        "title": "",
+                      }
+        }
+        image="image" />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "carousel": Object {
+            "action": "",
+            "action_url": "",
+            "subtitle": "",
+            "title": "",
+          },
+          "image": "image",
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="slider-content">
+          <div
+                    className="slider-content__text">
+                    <styled.p />
+                    <styled.p />
+                    <a
+                              href="">
+                              <Button />
+                    </a>
+          </div>
+          <img
+                    alt="image"
+                    src="image" />
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="slider-content">
+          <div
+                    className="slider-content__text">
+                    <styled.p />
+                    <styled.p />
+                    <a
+                              href="">
+                              <Button />
+                    </a>
+          </div>
+          <img
+                    alt="image"
+                    src="image" />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <SliderContent
+    carousel={
+        Object {
+            "action": "",
+            "action_url": "",
+            "subtitle": "",
+            "title": "",
+          }
+    }
+    image="image" />,
+}
+`;

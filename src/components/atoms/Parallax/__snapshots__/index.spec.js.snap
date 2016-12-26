@@ -1,0 +1,251 @@
+exports[`test should render the Parallax 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="parallax--wrapper">
+    <div
+        className="parallax--end" />
+    <Sticky
+        activeClass="active"
+        bottomBoundary=".parallax--wrapper"
+        enableTransforms={true}
+        enabled={true}
+        onStateChange={null}
+        releasedClass="released"
+        shouldFreeze={[Function]}
+        top={100}>
+        <div
+            className="parallax parallax__polygon"
+            data-aos="fade-left"
+            data-aos-anchor-placement="bottom-bottom">
+            <div
+                className="parallax parallax__android__icon" />
+        </div>
+        <div
+            className="parallax parallax__android__phone"
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom" />
+    </Sticky>
+    <Sticky
+        activeClass="active"
+        bottomBoundary=".parallax--end"
+        enableTransforms={true}
+        enabled={true}
+        onStateChange={null}
+        releasedClass="released"
+        shouldFreeze={[Function]}
+        top={300}>
+        <div
+            className="parallax parallax__polygon__ios"
+            data-aos="fade-right"
+            data-aos-anchor-placement="bottom-bottom">
+            <div
+                className="parallax parallax__ios__icon" />
+        </div>
+        <div
+            className="parallax parallax__ios__phone"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
+            data-aos-easing="linear" />
+    </Sticky>
+</div>,
+  "nodes": Array [
+    <div
+      className="parallax--wrapper">
+      <div
+            className="parallax--end" />
+      <Sticky
+            activeClass="active"
+            bottomBoundary=".parallax--wrapper"
+            enableTransforms={true}
+            enabled={true}
+            onStateChange={null}
+            releasedClass="released"
+            shouldFreeze={[Function]}
+            top={100}>
+            <div
+                  className="parallax parallax__polygon"
+                  data-aos="fade-left"
+                  data-aos-anchor-placement="bottom-bottom">
+                  <div
+                        className="parallax parallax__android__icon" />
+            </div>
+            <div
+                  className="parallax parallax__android__phone"
+                  data-aos="fade-down"
+                  data-aos-anchor-placement="bottom-bottom" />
+      </Sticky>
+      <Sticky
+            activeClass="active"
+            bottomBoundary=".parallax--end"
+            enableTransforms={true}
+            enabled={true}
+            onStateChange={null}
+            releasedClass="released"
+            shouldFreeze={[Function]}
+            top={300}>
+            <div
+                  className="parallax parallax__polygon__ios"
+                  data-aos="fade-right"
+                  data-aos-anchor-placement="bottom-bottom">
+                  <div
+                        className="parallax parallax__ios__icon" />
+            </div>
+            <div
+                  className="parallax parallax__ios__phone"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="bottom-bottom"
+                  data-aos-easing="linear" />
+      </Sticky>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Parallax />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {},
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="parallax--wrapper">
+          <div
+                    className="parallax--end" />
+          <Sticky
+                    activeClass="active"
+                    bottomBoundary=".parallax--wrapper"
+                    enableTransforms={true}
+                    enabled={true}
+                    onStateChange={null}
+                    releasedClass="released"
+                    shouldFreeze={[Function]}
+                    top={100}>
+                    <div
+                              className="parallax parallax__polygon"
+                              data-aos="fade-left"
+                              data-aos-anchor-placement="bottom-bottom">
+                              <div
+                                        className="parallax parallax__android__icon" />
+                    </div>
+                    <div
+                              className="parallax parallax__android__phone"
+                              data-aos="fade-down"
+                              data-aos-anchor-placement="bottom-bottom" />
+          </Sticky>
+          <Sticky
+                    activeClass="active"
+                    bottomBoundary=".parallax--end"
+                    enableTransforms={true}
+                    enabled={true}
+                    onStateChange={null}
+                    releasedClass="released"
+                    shouldFreeze={[Function]}
+                    top={300}>
+                    <div
+                              className="parallax parallax__polygon__ios"
+                              data-aos="fade-right"
+                              data-aos-anchor-placement="bottom-bottom">
+                              <div
+                                        className="parallax parallax__ios__icon" />
+                    </div>
+                    <div
+                              className="parallax parallax__ios__phone"
+                              data-aos="fade-up"
+                              data-aos-anchor-placement="bottom-bottom"
+                              data-aos-easing="linear" />
+          </Sticky>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="parallax--wrapper">
+          <div
+                    className="parallax--end" />
+          <Sticky
+                    activeClass="active"
+                    bottomBoundary=".parallax--wrapper"
+                    enableTransforms={true}
+                    enabled={true}
+                    onStateChange={null}
+                    releasedClass="released"
+                    shouldFreeze={[Function]}
+                    top={100}>
+                    <div
+                              className="parallax parallax__polygon"
+                              data-aos="fade-left"
+                              data-aos-anchor-placement="bottom-bottom">
+                              <div
+                                        className="parallax parallax__android__icon" />
+                    </div>
+                    <div
+                              className="parallax parallax__android__phone"
+                              data-aos="fade-down"
+                              data-aos-anchor-placement="bottom-bottom" />
+          </Sticky>
+          <Sticky
+                    activeClass="active"
+                    bottomBoundary=".parallax--end"
+                    enableTransforms={true}
+                    enabled={true}
+                    onStateChange={null}
+                    releasedClass="released"
+                    shouldFreeze={[Function]}
+                    top={300}>
+                    <div
+                              className="parallax parallax__polygon__ios"
+                              data-aos="fade-right"
+                              data-aos-anchor-placement="bottom-bottom">
+                              <div
+                                        className="parallax parallax__ios__icon" />
+                    </div>
+                    <div
+                              className="parallax parallax__ios__phone"
+                              data-aos="fade-up"
+                              data-aos-anchor-placement="bottom-bottom"
+                              data-aos-easing="linear" />
+          </Sticky>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Parallax />,
+}
+`;

@@ -3,6 +3,12 @@ import {render} from 'react-dom'
 
 const style = document.createElement('style')
 
+/*********************************************************************
+ * This is a Toaster Ive created sometime ago, it uses inline css so *
+ * there is no need to use css modules                               *
+ *********************************************************************/
+
+
 //You can customize the toast CSS here
 const css = `@keyframes bottom {
   0% {

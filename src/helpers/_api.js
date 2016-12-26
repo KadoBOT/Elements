@@ -4,6 +4,11 @@ import './css/loader.css'
 
 let call = 0
 
+
+/************************************************************************
+Here a div with the spinning loader is created and appended to the body *
+ ************************************************************************/
+
 const createLoader = () => {
   if(call === 0) {
     document.documentElement.style.overflow = 'hidden';
@@ -22,6 +27,10 @@ const createLoader = () => {
   }
 }
 
+/*************************************************
+Remove the loader from body after it isnt needed *
+ *************************************************/
+
 const removeLoader = () => {
   if(call === 0) {
     document.documentElement.style.overflow = 'auto';
@@ -29,6 +38,7 @@ const removeLoader = () => {
   }
 }
 
+// default parameters for api calls
 const instance = axios.create({
   baseURL: 'https://recruitment.elements.nl:8080/v1/',
   headers: {
@@ -36,9 +46,10 @@ const instance = axios.create({
   }
 });
 
+//interceptors to show the loading spinner everytime a request is made
 instance.interceptors.request.use(config  => {
-  createLoader()
-  call = call++
+  createLoader() // call the function to show the loader
+  call = call++ // this is to avoid creating multiple nodes on body
   return config;
 }, error => {
   createLoader()
@@ -48,7 +59,7 @@ instance.interceptors.request.use(config  => {
 
 instance.interceptors.response.use(response => {
   call = call++
-  removeLoader()
+  removeLoader() // remove the loader after we receive a response from api
   return response;
 }, error => {
   call = call--

@@ -1,0 +1,177 @@
+exports[`test should render the TextArea 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <label
+    className="text-area">
+    <div
+        className="text-area__label">
+        <styled.p>
+            comment
+            <span
+                className="text-area__required">
+                •
+            </span>
+        </styled.p>
+    </div>
+    <textarea
+        className="text-area__error-false"
+        name="comment"
+        onChange={[Function]}
+        placeholder="place comment here"
+        required={true}
+        value="hi" />
+    <ul
+        className="text-area__errors">
+        
+    </ul>
+</label>,
+  "nodes": Array [
+    <label
+      className="text-area">
+      <div
+            className="text-area__label">
+            <styled.p>
+                  comment
+                  <span
+                        className="text-area__required">
+                        •
+                  </span>
+            </styled.p>
+      </div>
+      <textarea
+            className="text-area__error-false"
+            name="comment"
+            onChange={[Function]}
+            placeholder="place comment here"
+            required={true}
+            value="hi" />
+      <ul
+            className="text-area__errors">
+            
+      </ul>
+</label>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <TextArea
+        errors={Array []}
+        isRequired={true}
+        label="comment"
+        name="comment"
+        onChange={[Function]}
+        placeholder="place comment here"
+        value="hi" />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "errors": Array [],
+          "isRequired": true,
+          "label": "comment",
+          "name": "comment",
+          "onChange": [Function],
+          "placeholder": "place comment here",
+          "value": "hi",
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <label
+          className="text-area">
+          <div
+                    className="text-area__label">
+                    <styled.p>
+                              comment
+                              <span
+                                        className="text-area__required">
+                                        •
+                              </span>
+                    </styled.p>
+          </div>
+          <textarea
+                    className="text-area__error-false"
+                    name="comment"
+                    onChange={[Function]}
+                    placeholder="place comment here"
+                    required={true}
+                    value="hi" />
+          <ul
+                    className="text-area__errors">
+                    
+          </ul>
+</label>,
+        "_debugID": 2,
+        "_renderedOutput": <label
+          className="text-area">
+          <div
+                    className="text-area__label">
+                    <styled.p>
+                              comment
+                              <span
+                                        className="text-area__required">
+                                        •
+                              </span>
+                    </styled.p>
+          </div>
+          <textarea
+                    className="text-area__error-false"
+                    name="comment"
+                    onChange={[Function]}
+                    placeholder="place comment here"
+                    required={true}
+                    value="hi" />
+          <ul
+                    className="text-area__errors">
+                    
+          </ul>
+</label>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <TextArea
+    errors={Array []}
+    isRequired={true}
+    label="comment"
+    name="comment"
+    onChange={[Function]}
+    placeholder="place comment here"
+    value="hi" />,
+}
+`;
