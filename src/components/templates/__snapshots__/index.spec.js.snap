@@ -8,34 +8,34 @@ ShallowWrapper {
   "length": 1,
   "node": <div>
     <div>
-        <Header />
+        <Unknown />
         <Connect(Slider) />
     </div>
     <div
         className="template__middle">
-        <Home />
-        <Connect(Careers) />
-        <Blog />
+        <Unknown />
+        <Connect(Component) />
+        <Unknown />
         <Connect(CommentArea) />
-        <Connect(Contact) />
+        <Connect(Component) />
     </div>
-    <Footer />
+    <Unknown />
 </div>,
   "nodes": Array [
     <div>
       <div>
-            <Header />
+            <Unknown />
             <Connect(Slider) />
       </div>
       <div
             className="template__middle">
-            <Home />
-            <Connect(Careers) />
-            <Blog />
+            <Unknown />
+            <Connect(Component) />
+            <Unknown />
             <Connect(CommentArea) />
-            <Connect(Contact) />
+            <Connect(Component) />
       </div>
-      <Footer />
+      <Unknown />
 </div>,
   ],
   "options": Object {},
@@ -44,7 +44,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <App />,
+      "_currentElement": <Unknown />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -74,34 +74,34 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div>
           <div>
-                    <Header />
+                    <Unknown />
                     <Connect(Slider) />
           </div>
           <div
                     className="template__middle">
-                    <Home />
-                    <Connect(Careers) />
-                    <Blog />
+                    <Unknown />
+                    <Connect(Component) />
+                    <Unknown />
                     <Connect(CommentArea) />
-                    <Connect(Contact) />
+                    <Connect(Component) />
           </div>
-          <Footer />
+          <Unknown />
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div>
           <div>
-                    <Header />
+                    <Unknown />
                     <Connect(Slider) />
           </div>
           <div
                     className="template__middle">
-                    <Home />
-                    <Connect(Careers) />
-                    <Blog />
+                    <Unknown />
+                    <Connect(Component) />
+                    <Unknown />
                     <Connect(CommentArea) />
-                    <Connect(Contact) />
+                    <Connect(Component) />
           </div>
-          <Footer />
+          <Unknown />
 </div>,
       },
       "_renderedNodeType": 0,
@@ -114,6 +114,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <App />,
+  "unrendered": <Unknown />,
 }
 `;

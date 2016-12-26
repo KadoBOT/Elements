@@ -62,7 +62,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <TextArea
+      "_currentElement": <Unknown
         errors={Array []}
         isRequired={true}
         label="comment"
@@ -165,7 +165,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <TextArea
+  "unrendered": <Unknown
     errors={Array []}
     isRequired={true}
     label="comment"

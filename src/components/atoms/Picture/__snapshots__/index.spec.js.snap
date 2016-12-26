@@ -18,7 +18,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Picture
+      "_currentElement": <Unknown
         className="test" />,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -65,7 +65,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Picture
+  "unrendered": <Unknown
     className="test" />,
 }
 `;

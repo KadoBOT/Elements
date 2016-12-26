@@ -22,7 +22,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <TextColumns
+      "_currentElement": <Unknown
         city={
                 Object {
                         "texts": Array [],
@@ -79,7 +79,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <TextColumns
+  "unrendered": <Unknown
     city={
         Object {
             "texts": Array [],

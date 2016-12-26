@@ -14,7 +14,7 @@ ShallowWrapper {
         <styled.p />
         <a
             href="">
-            <Button />
+            <Unknown />
         </a>
     </div>
     <img
@@ -30,7 +30,7 @@ ShallowWrapper {
             <styled.p />
             <a
                   href="">
-                  <Button />
+                  <Unknown />
             </a>
       </div>
       <img
@@ -44,7 +44,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <SliderContent
+      "_currentElement": <Unknown
         carousel={
                 Object {
                         "action": "",
@@ -97,7 +97,7 @@ ShallowWrapper {
                     <styled.p />
                     <a
                               href="">
-                              <Button />
+                              <Unknown />
                     </a>
           </div>
           <img
@@ -113,7 +113,7 @@ ShallowWrapper {
                     <styled.p />
                     <a
                               href="">
-                              <Button />
+                              <Unknown />
                     </a>
           </div>
           <img
@@ -131,7 +131,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <SliderContent
+  "unrendered": <Unknown
     carousel={
         Object {
             "action": "",

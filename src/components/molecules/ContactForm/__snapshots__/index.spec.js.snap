@@ -27,7 +27,7 @@ ShallowWrapper {
     </div>
     <div
         className="contact-form__row">
-        <Input
+        <Unknown
             errors={Array []}
             isRequired={true}
             label="Name"
@@ -39,7 +39,7 @@ ShallowWrapper {
     </div>
     <div
         className="contact-form__row">
-        <Input
+        <Unknown
             errors={Array []}
             isRequired={true}
             label="Email"
@@ -51,7 +51,7 @@ ShallowWrapper {
     </div>
     <div
         className="contact-form__row">
-        <Input
+        <Unknown
             errors={Array []}
             isRequired={true}
             label="Telephone"
@@ -63,7 +63,7 @@ ShallowWrapper {
     </div>
     <div
         className="contact-form__row--text-area">
-        <TextArea
+        <Unknown
             errors={Array []}
             isRequired={true}
             label="Message"
@@ -74,10 +74,10 @@ ShallowWrapper {
     </div>
     <div
         className="contact-form__row--submit">
-        <Button
+        <Unknown
             onSubmit={[Function]}>
             SEND
-        </Button>
+        </Unknown>
     </div>
 </div>,
   "nodes": Array [
@@ -102,7 +102,7 @@ ShallowWrapper {
       </div>
       <div
             className="contact-form__row">
-            <Input
+            <Unknown
                   errors={Array []}
                   isRequired={true}
                   label="Name"
@@ -114,7 +114,7 @@ ShallowWrapper {
       </div>
       <div
             className="contact-form__row">
-            <Input
+            <Unknown
                   errors={Array []}
                   isRequired={true}
                   label="Email"
@@ -126,7 +126,7 @@ ShallowWrapper {
       </div>
       <div
             className="contact-form__row">
-            <Input
+            <Unknown
                   errors={Array []}
                   isRequired={true}
                   label="Telephone"
@@ -138,7 +138,7 @@ ShallowWrapper {
       </div>
       <div
             className="contact-form__row--text-area">
-            <TextArea
+            <Unknown
                   errors={Array []}
                   isRequired={true}
                   label="Message"
@@ -149,10 +149,10 @@ ShallowWrapper {
       </div>
       <div
             className="contact-form__row--submit">
-            <Button
+            <Unknown
                   onSubmit={[Function]}>
                   SEND
-            </Button>
+            </Unknown>
       </div>
 </div>,
   ],
@@ -162,7 +162,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <ContactForm
+      "_currentElement": <Unknown
         errors={
                 Object {
                         "email": Array [],
@@ -244,7 +244,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Name"
@@ -256,7 +256,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Email"
@@ -268,7 +268,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Telephone"
@@ -280,7 +280,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row--text-area">
-                    <TextArea
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Message"
@@ -291,10 +291,10 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row--submit">
-                    <Button
+                    <Unknown
                               onSubmit={[Function]}>
                               SEND
-                    </Button>
+                    </Unknown>
           </div>
 </div>,
         "_debugID": 2,
@@ -319,7 +319,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Name"
@@ -331,7 +331,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Email"
@@ -343,7 +343,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Telephone"
@@ -355,7 +355,7 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row--text-area">
-                    <TextArea
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Message"
@@ -366,10 +366,10 @@ ShallowWrapper {
           </div>
           <div
                     className="contact-form__row--submit">
-                    <Button
+                    <Unknown
                               onSubmit={[Function]}>
                               SEND
-                    </Button>
+                    </Unknown>
           </div>
 </div>,
       },
@@ -383,7 +383,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <ContactForm
+  "unrendered": <Unknown
     errors={
         Object {
             "email": Array [],

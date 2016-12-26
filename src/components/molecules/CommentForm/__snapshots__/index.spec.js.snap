@@ -10,7 +10,7 @@ ShallowWrapper {
     className="comment-form">
     <div
         className="comment-form__row">
-        <Input
+        <Unknown
             errors={Array []}
             isRequired={true}
             label="Name"
@@ -19,7 +19,7 @@ ShallowWrapper {
             placeholder="Place your name here..."
             type="text"
             value="" />
-        <Input
+        <Unknown
             errors={Array []}
             isRequired={true}
             label="Email"
@@ -31,7 +31,7 @@ ShallowWrapper {
     </div>
     <div
         className="comment-form__row--text-area">
-        <TextArea
+        <Unknown
             errors={Array []}
             isRequired={true}
             label="Comment"
@@ -42,10 +42,10 @@ ShallowWrapper {
     </div>
     <div
         className="comment-form__row--submit">
-        <Button
+        <Unknown
             onSubmit={[Function]}>
             Submit Comment
-        </Button>
+        </Unknown>
     </div>
 </div>,
   "nodes": Array [
@@ -53,7 +53,7 @@ ShallowWrapper {
       className="comment-form">
       <div
             className="comment-form__row">
-            <Input
+            <Unknown
                   errors={Array []}
                   isRequired={true}
                   label="Name"
@@ -62,7 +62,7 @@ ShallowWrapper {
                   placeholder="Place your name here..."
                   type="text"
                   value="" />
-            <Input
+            <Unknown
                   errors={Array []}
                   isRequired={true}
                   label="Email"
@@ -74,7 +74,7 @@ ShallowWrapper {
       </div>
       <div
             className="comment-form__row--text-area">
-            <TextArea
+            <Unknown
                   errors={Array []}
                   isRequired={true}
                   label="Comment"
@@ -85,10 +85,10 @@ ShallowWrapper {
       </div>
       <div
             className="comment-form__row--submit">
-            <Button
+            <Unknown
                   onSubmit={[Function]}>
                   Submit Comment
-            </Button>
+            </Unknown>
       </div>
 </div>,
   ],
@@ -98,7 +98,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <CommentForm
+      "_currentElement": <Unknown
         comment={
                 Object {
                         "comment": "",
@@ -159,7 +159,7 @@ ShallowWrapper {
           className="comment-form">
           <div
                     className="comment-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Name"
@@ -168,7 +168,7 @@ ShallowWrapper {
                               placeholder="Place your name here..."
                               type="text"
                               value="" />
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Email"
@@ -180,7 +180,7 @@ ShallowWrapper {
           </div>
           <div
                     className="comment-form__row--text-area">
-                    <TextArea
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Comment"
@@ -191,10 +191,10 @@ ShallowWrapper {
           </div>
           <div
                     className="comment-form__row--submit">
-                    <Button
+                    <Unknown
                               onSubmit={[Function]}>
                               Submit Comment
-                    </Button>
+                    </Unknown>
           </div>
 </div>,
         "_debugID": 2,
@@ -202,7 +202,7 @@ ShallowWrapper {
           className="comment-form">
           <div
                     className="comment-form__row">
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Name"
@@ -211,7 +211,7 @@ ShallowWrapper {
                               placeholder="Place your name here..."
                               type="text"
                               value="" />
-                    <Input
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Email"
@@ -223,7 +223,7 @@ ShallowWrapper {
           </div>
           <div
                     className="comment-form__row--text-area">
-                    <TextArea
+                    <Unknown
                               errors={Array []}
                               isRequired={true}
                               label="Comment"
@@ -234,10 +234,10 @@ ShallowWrapper {
           </div>
           <div
                     className="comment-form__row--submit">
-                    <Button
+                    <Unknown
                               onSubmit={[Function]}>
                               Submit Comment
-                    </Button>
+                    </Unknown>
           </div>
 </div>,
       },
@@ -251,7 +251,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <CommentForm
+  "unrendered": <Unknown
     comment={
         Object {
             "comment": "",

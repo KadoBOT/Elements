@@ -13,11 +13,11 @@ ShallowWrapper {
     <styled.p>
         title
     </styled.p>
-    <Separator />
+    <Unknown />
     <styled.p>
         subtitle
     </styled.p>
-    <Divider />
+    <Unknown />
     <styled.p>
         text
     </styled.p>
@@ -30,11 +30,11 @@ ShallowWrapper {
       <styled.p>
             title
       </styled.p>
-      <Separator />
+      <Unknown />
       <styled.p>
             subtitle
       </styled.p>
-      <Divider />
+      <Unknown />
       <styled.p>
             text
       </styled.p>
@@ -46,7 +46,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <About
+      "_currentElement": <Unknown
         subtitle="subtitle"
         text="text"
         title="title" />,
@@ -88,11 +88,11 @@ ShallowWrapper {
           <styled.p>
                     title
           </styled.p>
-          <Separator />
+          <Unknown />
           <styled.p>
                     subtitle
           </styled.p>
-          <Divider />
+          <Unknown />
           <styled.p>
                     text
           </styled.p>
@@ -105,11 +105,11 @@ ShallowWrapper {
           <styled.p>
                     title
           </styled.p>
-          <Separator />
+          <Unknown />
           <styled.p>
                     subtitle
           </styled.p>
-          <Divider />
+          <Unknown />
           <styled.p>
                     text
           </styled.p>
@@ -125,7 +125,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <About
+  "unrendered": <Unknown
     subtitle="subtitle"
     text="text"
     title="title" />,

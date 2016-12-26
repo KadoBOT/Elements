@@ -97,9 +97,9 @@ ShallowWrapper {
   "length": 1,
   "node": <div
     className="comment-area">
-    <About
+    <Unknown
         subtitle="Leave a Comment" />
-    <CommentForm
+    <Unknown
         comment={Object {}}
         errors={Object {}}
         onChange={[Function]}
@@ -112,9 +112,9 @@ ShallowWrapper {
   "nodes": Array [
     <div
       className="comment-area">
-      <About
+      <Unknown
             subtitle="Leave a Comment" />
-      <CommentForm
+      <Unknown
             comment={Object {}}
             errors={Object {}}
             onChange={[Function]}
@@ -181,9 +181,9 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
           className="comment-area">
-          <About
+          <Unknown
                     subtitle="Leave a Comment" />
-          <CommentForm
+          <Unknown
                     comment={Object {}}
                     errors={Object {}}
                     onChange={[Function]}
@@ -196,9 +196,9 @@ ShallowWrapper {
         "_debugID": 4,
         "_renderedOutput": <div
           className="comment-area">
-          <About
+          <Unknown
                     subtitle="Leave a Comment" />
-          <CommentForm
+          <Unknown
                     comment={Object {}}
                     errors={Object {}}
                     onChange={[Function]}

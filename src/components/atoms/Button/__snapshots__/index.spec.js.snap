@@ -24,9 +24,9 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Button>
+      "_currentElement": <Unknown>
         Button
-</Button>,
+</Unknown>,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -78,8 +78,8 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Button>
+  "unrendered": <Unknown>
     Button
-</Button>,
+</Unknown>,
 }
 `;

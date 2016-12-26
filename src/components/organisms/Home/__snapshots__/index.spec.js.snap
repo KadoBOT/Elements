@@ -9,7 +9,7 @@ ShallowWrapper {
   "node": <div
     className="home"
     id="HOME">
-    <About
+    <Unknown
         subtitle="Great projects for relevant companies"
         text="At Elements you will work with worldwide companies. These companies are as ambicious as all our Elements personel. Here some of the companies we have worked with:"
         title="Creating rock solid applications for web and mobile" />
@@ -19,7 +19,7 @@ ShallowWrapper {
     <div
       className="home"
       id="HOME">
-      <About
+      <Unknown
             subtitle="Great projects for relevant companies"
             text="At Elements you will work with worldwide companies. These companies are as ambicious as all our Elements personel. Here some of the companies we have worked with:"
             title="Creating rock solid applications for web and mobile" />
@@ -32,7 +32,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Home />,
+      "_currentElement": <Unknown />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -63,7 +63,7 @@ ShallowWrapper {
         "_currentElement": <div
           className="home"
           id="HOME">
-          <About
+          <Unknown
                     subtitle="Great projects for relevant companies"
                     text="At Elements you will work with worldwide companies. These companies are as ambicious as all our Elements personel. Here some of the companies we have worked with:"
                     title="Creating rock solid applications for web and mobile" />
@@ -73,7 +73,7 @@ ShallowWrapper {
         "_renderedOutput": <div
           className="home"
           id="HOME">
-          <About
+          <Unknown
                     subtitle="Great projects for relevant companies"
                     text="At Elements you will work with worldwide companies. These companies are as ambicious as all our Elements personel. Here some of the companies we have worked with:"
                     title="Creating rock solid applications for web and mobile" />
@@ -90,6 +90,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Home />,
+  "unrendered": <Unknown />,
 }
 `;

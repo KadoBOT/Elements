@@ -9,10 +9,10 @@ ShallowWrapper {
   "node": <div
     className="contact"
     id="CONTACT">
-    <About
+    <Unknown
         subtitle="Let\'s talk and go on!"
         text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-    <ContactForm
+    <Unknown
         errors={Object {}}
         message={Object {}}
         onChange={[Function]}
@@ -22,10 +22,10 @@ ShallowWrapper {
     <div
       className="contact"
       id="CONTACT">
-      <About
+      <Unknown
             subtitle="Let\'s talk and go on!"
             text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-      <ContactForm
+      <Unknown
             errors={Object {}}
             message={Object {}}
             onChange={[Function]}
@@ -38,7 +38,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Contact
+      "_currentElement": <Unknown
         errors={Object {}}
         handleMessage={[Function]}
         message={Object {}}
@@ -78,10 +78,10 @@ ShallowWrapper {
         "_currentElement": <div
           className="contact"
           id="CONTACT">
-          <About
+          <Unknown
                     subtitle="Let\'s talk and go on!"
                     text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-          <ContactForm
+          <Unknown
                     errors={Object {}}
                     message={Object {}}
                     onChange={[Function]}
@@ -91,10 +91,10 @@ ShallowWrapper {
         "_renderedOutput": <div
           className="contact"
           id="CONTACT">
-          <About
+          <Unknown
                     subtitle="Let\'s talk and go on!"
                     text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." />
-          <ContactForm
+          <Unknown
                     errors={Object {}}
                     message={Object {}}
                     onChange={[Function]}
@@ -111,7 +111,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Contact
+  "unrendered": <Unknown
     errors={Object {}}
     handleMessage={[Function]}
     message={Object {}}

@@ -36,7 +36,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Hero
+      "_currentElement": <Unknown
         overlay={true}
         subtitle="2"
         title="1" />,
@@ -105,7 +105,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Hero
+  "unrendered": <Unknown
     overlay={true}
     subtitle="2"
     title="1" />,

@@ -38,7 +38,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Client
+      "_currentElement": <Unknown
         client={
                 Object {
                         "logo": "x",
@@ -113,7 +113,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Client
+  "unrendered": <Unknown
     client={
         Object {
             "logo": "x",

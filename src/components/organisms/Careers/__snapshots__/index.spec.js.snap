@@ -11,7 +11,7 @@ ShallowWrapper {
     id="CAREERS">
     <div
         className="careers__about">
-        <About
+        <Unknown
             subtitle="Join a magnificent and fun team"
             text="At Elements you will work with colleagues who are specialized in development. Not only can you share knowledge with your co-workers but also have fun. We like to have a positive approach." />
     </div>
@@ -22,7 +22,7 @@ ShallowWrapper {
       id="CAREERS">
       <div
             className="careers__about">
-            <About
+            <Unknown
                   subtitle="Join a magnificent and fun team"
                   text="At Elements you will work with colleagues who are specialized in development. Not only can you share knowledge with your co-workers but also have fun. We like to have a positive approach." />
       </div>
@@ -34,7 +34,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Careers
+      "_currentElement": <Unknown
         careers={Array []} />,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -70,7 +70,7 @@ ShallowWrapper {
           id="CAREERS">
           <div
                     className="careers__about">
-                    <About
+                    <Unknown
                               subtitle="Join a magnificent and fun team"
                               text="At Elements you will work with colleagues who are specialized in development. Not only can you share knowledge with your co-workers but also have fun. We like to have a positive approach." />
           </div>
@@ -81,7 +81,7 @@ ShallowWrapper {
           id="CAREERS">
           <div
                     className="careers__about">
-                    <About
+                    <Unknown
                               subtitle="Join a magnificent and fun team"
                               text="At Elements you will work with colleagues who are specialized in development. Not only can you share knowledge with your co-workers but also have fun. We like to have a positive approach." />
           </div>
@@ -97,7 +97,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Careers
+  "unrendered": <Unknown
     careers={Array []} />,
 }
 `;

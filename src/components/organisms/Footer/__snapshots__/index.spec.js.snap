@@ -11,7 +11,7 @@ ShallowWrapper {
     <styled.p>
         ® Elements Interactive
     </styled.p>
-    <Connect(FooterMenu) />
+    <Connect(Component) />
 </div>,
   "nodes": Array [
     <div
@@ -19,7 +19,7 @@ ShallowWrapper {
       <styled.p>
             ® Elements Interactive
       </styled.p>
-      <Connect(FooterMenu) />
+      <Connect(Component) />
 </div>,
   ],
   "options": Object {},
@@ -28,7 +28,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Footer />,
+      "_currentElement": <Unknown />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -61,7 +61,7 @@ ShallowWrapper {
           <styled.p>
                     ® Elements Interactive
           </styled.p>
-          <Connect(FooterMenu) />
+          <Connect(Component) />
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div
@@ -69,7 +69,7 @@ ShallowWrapper {
           <styled.p>
                     ® Elements Interactive
           </styled.p>
-          <Connect(FooterMenu) />
+          <Connect(Component) />
 </div>,
       },
       "_renderedNodeType": 0,
@@ -82,6 +82,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Footer />,
+  "unrendered": <Unknown />,
 }
 `;
