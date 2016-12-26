@@ -9,11 +9,11 @@
 }
 
 .comments__info__author {
-  color: #ec0f50;
-  font-weight: bold;
-  margin-right: 1.75vw;
+  color: #ec0f50 !important;
+  font-weight: bold !important;
+  margin-right: 1.75vw !important;
 }
 
 .comments__comment {
-  text-align: left;
+  text-align: left !important;
 }
